@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="~/Content/popper.min.js"></script>
+    <link href="~/Content/StyleSheet_AdminLayout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header role="banner">
+        <h1>Admin Panel</h1>
+        <ul class="utilities">
+            @*<br>*@
+            <li class="users"><a href="#">My Account</a></li>
+            <li class="logout warn"><a href="">Log Out</a></li>
+        </ul>
+    </header>
+
+    <nav role='navigation'>
+        <ul class="main">
+            <li class="dashboard"><a href="admin_dashboard">Dashboard</a></li>
+            <li class="edit"><a href="#">Edit Website</a></li>
+            <li class="write"><a href="#">Write news</a></li>
+            <li class="comments"><a href="#">Ads</a></li>
+            <li class="users"><a href="#">Manage Users</a></li>
+        </ul>
+    </nav>
+    @RenderBody()
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Add other JavaScript files as needed -->
+</body>
+</html>
