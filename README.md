@@ -6,10 +6,10 @@ It is a Full Stack e-commerce web application using ASP.NET MVC.
 * Backend: ASP.NET MVC 5, Entity Framework 6, Microsoft SQL Server
 
 # Key Features:
-Admin panel for managing products, orders, and users. 
-User authentication and authorization functionality
-Product catalog with categories
-Shopping cart functionality
-Add to cart functionality.
-Check Out and place order(invoice generation): currently support cash on delevery option.
-Auto product update.
+* Admin panel for managing products, orders, and users. 
+* User authentication and authorization functionality
+* Product catalog with categories
+* Shopping cart functionality
+* Add to cart functionality.
+* Check Out and place order(invoice generation): currently support cash on delevery option.
+* Auto product update.
