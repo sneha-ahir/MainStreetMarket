@@ -11,5 +11,5 @@ It is a Full Stack e-commerce web application using ASP.NET MVC.
 * Product catalog with categories
 * Shopping cart functionality
 * Add to cart functionality.
-* Check Out and place order(invoice generation): currently support cash on delevery option.
+* Check Out and place order(invoice generation): currently support cash on delivery option.
 * Auto product update.
